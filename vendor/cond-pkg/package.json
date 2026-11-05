@@ -1,0 +1,1 @@
+{"name":"cond-pkg","type":"module","exports":{"node":"./node.js","browser":"./browser.js","default":"./node.js"}}

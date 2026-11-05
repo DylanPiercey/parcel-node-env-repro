@@ -1,0 +1,13 @@
+{
+  "name": "parcel-node-env-repro",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "parcel build src/server.js",
+    "start": "node dist/server.js",
+    "dev": "PORT=4580 parcel run src/server.js"
+  },
+  "dependencies": { "cond-pkg": "file:vendor/cond-pkg" },
+  "devDependencies": { "parcel": "3.0.0-alpha.2" }
+}
